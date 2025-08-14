@@ -1,0 +1,6 @@
+How to compile the stopwatch using PyInstaller (Remember that this is a Windows-only application):
+
+1.	Open a Command Prompt window in the folder where Stopwatch.pyw and logo.ico are.
+2.	Enter the PyInstaller command below and wait for the process to finish:
+
+pyinstaller --windowed --onedir --name Stopwatch --icon=logo.ico Stopwatch.pyw --add-data "logo.ico;."
